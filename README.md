@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+closure is when a variable is passed to a child function or scope, when that variable was not initialized inside that scope, and it only works one way, parent to child.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +67,15 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+closure is used in name variable since it was passed to the inner function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+
+the name is same but the rolling number is changing since its random each time.
+
+c. What is the lexical scope of `newRoll`?
+newRoll is scoped to only the inner function so it's only available in the inner function
 
 
 ### Task 3 - Stretch Goals
