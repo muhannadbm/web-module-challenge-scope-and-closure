@@ -159,7 +159,7 @@ function scoreboard(getinning, inning, num) {
   /* CODE HERE */
   let myarr= [];
   for(let i = 0; i < num; i++){
-    myarr.push(getinning(inning()));
+    myarr.push(`Inning ${i+1}: Away ${getinning.Away} - Home ${getinning.Home}`)
   }
   return myarr;
 }
